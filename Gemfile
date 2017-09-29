@@ -8,6 +8,7 @@ end
 # Bootstrap gem and sass
 gem 'bootstrap-sass', '~> 3.3.6'
 
+gem 'acts_as_votable', '~> 0.10.0'
 # Devise gem for users in database
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
