@@ -85,13 +85,12 @@ label {
 
 body {
   background: url(burger.jpg) center center / cover no-repeat;
-
 }
 
 .burgerking{
 height: 100px;
 width: 100px;
 float: left;
-margin-top: -100px;
-z-index:100;
+margin-top: -50px;
+z-index:2;
 }
