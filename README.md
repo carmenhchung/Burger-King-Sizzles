@@ -1,6 +1,6 @@
 # README
 
-## Twitter Clone With Reugen; When making a rails app.
+## Twitter Clone for BURGER KING; When making a rails app.
 	added bootstrap 3 gem, and sass and improved UI.
 
 
@@ -11,9 +11,3 @@
 
 
 ---
-
-Established color template for buttons
--	red for delete
-- light blue for edit
-- orange to go Back
-- green to submit a tweet or edit.

@@ -1613,6 +1613,7 @@ pre code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  z-index: 1;
 }
 .row {
   margin-left: -15px;
