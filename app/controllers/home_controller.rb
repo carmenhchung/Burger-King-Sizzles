@@ -4,4 +4,8 @@ class HomeController < ApplicationController
     @tweets = Tweet.last(20)
   end
 
+  def homepage
+    #  @tweets = Tweet.last(20)
+  end
+
 end
