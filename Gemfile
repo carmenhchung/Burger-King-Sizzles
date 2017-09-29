@@ -8,12 +8,13 @@ end
 # Bootstrap gem and sass
 gem 'bootstrap-sass', '~> 3.3.6'
 
+gem 'acts_as_votable', '~> 0.10.0'
 # Devise gem for users in database
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use pg as the database for Active Record
-gem 'pg'
+gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
