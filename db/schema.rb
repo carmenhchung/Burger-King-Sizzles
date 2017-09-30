@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20170929051229) do
-=======
-ActiveRecord::Schema.define(version: 20170929034908) do
->>>>>>> master
 
   create_table "tweets", force: :cascade do |t|
     t.string "message"
