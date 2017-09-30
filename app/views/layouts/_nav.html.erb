@@ -14,7 +14,19 @@
 						<ul class="nav navbar-nav">
 							<!-- Rego  -->
 							<li>
+								<!--Home  -->
+								<%= render 'devise/homepage', class: "btn" %>
+							</li>
+							<li>
+								<!--My Profile  -->
+                  <%= render 'devise/profile', class: "btn" %>
+							</li>
+
+							<li>
+								<!--Sign Up & Edit Registration  -->
+								<% if params[:action] != "index" && params[:action] != "edit"%>
                 <%= render 'devise/registration_items', class: "btn" %>
+								<% end %>
 							</li>
 							<li>
 								<!--login  -->
