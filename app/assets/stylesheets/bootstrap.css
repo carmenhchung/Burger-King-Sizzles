@@ -1590,8 +1590,9 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 100%;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
 }
 @media (min-width: 768px) {
   .container {
@@ -3237,6 +3238,8 @@ fieldset[disabled] .btn-success.focus {
   color: #ffffff;
   background-color: #5bc0de;
   border-color: #46b8da;
+  float: right;
+  margin: 10px;
 }
 .btn-info:focus,
 .btn-info.focus {
