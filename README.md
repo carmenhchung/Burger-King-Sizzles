@@ -15,4 +15,4 @@
 logo and navbar repositioned.
 
 # /Tweet Page Updated V02.
-Burger pig picture problem rectified. 
+Burger big picture problem rectified. 
