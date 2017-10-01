@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :crowns
+  resources :replies
   devise_for :users
   authenticated :user do
     root :to => 'tweets#index', as: :authenticated_root
