@@ -11,11 +11,17 @@ class TweetsController < ApplicationController
   # GET /tweets/1
   # GET /tweets/1.json
   def show
+
   end
 
+  # def display
+  #   @tweet = Tweet.find(params[:id])
+  #   @tweet = @tweet.message.select! { |s| s.user_id == current_user.id }
+  # end
   # GET /tweets/new
   def new
     @tweet = Tweet.new
+    @tweet = current_user.tweets.build
   end
 
   # GET /tweets/1/edit
@@ -39,7 +45,7 @@ class TweetsController < ApplicationController
   def create
 
     @tweet = Tweet.new(tweet_params)
-
+    @tweet = current_user.tweets.new(tweet_params)
 
     respond_to do |format|
       if @tweet.save
@@ -89,6 +95,6 @@ class TweetsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def tweet_params
-      params.require(:tweet).permit(:message, :avatar)
+      params.require(:tweet).permit(:message, :avatar, :user_id)
     end
 end
