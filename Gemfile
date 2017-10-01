@@ -5,6 +5,13 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Admin panel
+gem 'remotipart', github: 'mshibuya/remotipart'
+gem 'rails_admin', github: 'sferik/rails_admin'
+gem 'rails_admin_rollincode', '~> 1.2'
+
+
+
 # Bootstrap gem and sass
 gem 'bootstrap-sass', '~> 3.3.6'
 #Voting/Likes

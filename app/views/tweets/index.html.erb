@@ -17,6 +17,7 @@
         <td><%= tweet.user_id %></td>
         <td><%= tweet.message %></td>
         <td><%= tweet.id %></td>
+        <td><%= time_ago_in_words(tweet.created_at) %></td>
         <td><%= tweet.avatar_url %></td>
         <td><%= link_to 'Show', tweet, class: "btn btn-primary"%></td>
         <td><%= link_to 'Edit', edit_tweet_path(tweet), class: "btn btn-info" %></td>
