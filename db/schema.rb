@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20171001014119) do
     t.string "message"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image"
     t.string "avatar"
     t.integer "user_id"
     t.string "retweet"
