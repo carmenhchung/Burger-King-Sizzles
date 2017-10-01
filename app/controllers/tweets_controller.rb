@@ -24,7 +24,9 @@ class TweetsController < ApplicationController
   # POST /tweets
   # POST /tweets.json
   def create
+
     @tweet = Tweet.new(tweet_params)
+
 
     respond_to do |format|
       if @tweet.save
@@ -69,6 +71,6 @@ class TweetsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def tweet_params
-      params.require(:tweet).permit(:message)
+      params.require(:tweet).permit(:message, :avatar)
     end
 end

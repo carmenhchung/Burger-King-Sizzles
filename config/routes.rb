@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :crowns
+  resources :replies
   devise_for :users
   root 'home#index'
   resources :tweets
