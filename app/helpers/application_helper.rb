@@ -4,6 +4,9 @@ module ApplicationHelper
   def resource_name
      :user
   end
+  def input
+
+  end
 
   def resource
      @resource ||= User.new

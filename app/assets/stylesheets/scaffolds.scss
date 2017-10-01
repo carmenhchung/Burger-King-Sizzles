@@ -1,10 +1,12 @@
 body {
-  background-color: #fff;
+  // background-color: #fff;
   color: #333;
   margin: 33px;
+
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  background-image: image-url("0209_stripes.jpg");
 }
 
 p, ol, ul, td {
@@ -20,10 +22,10 @@ pre {
 }
 
 a {
-  color: #000;
+  color: #fff;
 
   &:visited {
-    color: #666;
+    color: #fff;
   }
 
   &:hover {
@@ -57,6 +59,7 @@ div {
 }
 
 #error_explanation {
+  text-align: center;
   width: 450px;
   border: 2px solid red;
   padding: 7px 7px 0;
@@ -83,14 +86,13 @@ label {
   display: block;
 }
 
-body {
-  background: url(burger.jpg) center center / cover no-repeat;
-}
 
 .burgerking{
 height: 100px;
 width: 100px;
 float: left;
-margin-top: -50px;
+position: relative;
+left: 17px;
+margin-top: -70px;
 z-index:2;
 }
