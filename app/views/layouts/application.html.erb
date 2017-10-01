@@ -8,8 +8,11 @@
 		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
 	</head>
-
 	<body>
+		<!-- render Nav Bar  -->
+		<%= render 'layouts/nav'%>
+		
+
 
 <!-- container to keep it neat  -->
 		<div class="container text-center">
@@ -24,5 +27,6 @@
 				<%= yield %>
 			</div>
 		</div>
+
 	</body>
 </html>
