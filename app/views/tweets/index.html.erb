@@ -21,7 +21,7 @@
         <td><%= link_to 'Edit', edit_tweet_path(tweet), class: "btn btn-info" %></td>
         <td><%= link_to 'Delete', tweet, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
         <td><%= link_to like_tweet_path(tweet), class: "btn btn-success", method: :put do %>
-          👑
+          👑 Whop
           <%= tweet.get_upvotes.size %>
         <% end %></td>
         <td><%= link_to dislike_tweet_path(tweet), class: "btn btn-warning", method: :put do %>
