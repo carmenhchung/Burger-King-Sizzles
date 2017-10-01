@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Tweets</h1>
+<h1>Sizzles</h1>
 <%= link_to 'New Tweet', new_tweet_path, class: "btn btn-success btn-lg" %>
 
 <table class="table">
@@ -23,7 +23,7 @@
           <%= tweet.get_upvotes.size %>
         <% end %></td>
         <td><%= link_to dislike_tweet_path(tweet), class: "btn btn-warning", method: :put do %>
-          DeCrown
+          Dewhop
           <%= tweet.get_downvotes.size %>
         <% end %></td>
       </tr>
