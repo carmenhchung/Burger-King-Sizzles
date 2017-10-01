@@ -9,6 +9,10 @@
 
 				Also fixed my button errors by forcing white on all btn classses with !important
 
-/Tweet Stream page updated
-Logo and Navbar repositioned
+
 ---
+# /Tweet page updated
+logo and navbar repositioned.
+
+# /Tweet Page Updated V02.
+Burger pig picture problem rectified. 
