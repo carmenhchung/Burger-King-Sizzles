@@ -11,25 +11,26 @@
 
 
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+<%= favicon_link_tag %>
 	</head>
 
 	<body>
 
 <!-- container to keep it neat  -->
-		<div class="container text-center">
+<%= image_tag "burger.jpg", class: "burger"%>
+		<div class="container">
 			<!-- render Nav Bar  -->
 			<%= render 'layouts/nav'%>
 			<%= image_tag "burgerking.svg.png", class: "burgerking"%>
 			<!--Bird image  -->
-			<%= image_tag "burger.jpg", class: "burger"%>
+			</div>
 
 			<p class="notice"><%= notice %></p>
 			<p class="alert"><%= alert %></p>
 			<div class="jumbotron">
 
 				<%= yield %>
-			</div>
+
 		</div>
 	</body>
 </html>
