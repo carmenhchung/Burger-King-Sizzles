@@ -1,10 +1,7 @@
 class TweetsController < ApplicationController
   before_action :set_tweet, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!
-# <<<<<<< HEAD
-#
-# =======
-# >>>>>>> master
+
   # GET /tweets
   # GET /tweets.json
   def index
@@ -25,6 +22,18 @@ class TweetsController < ApplicationController
   def edit
   end
 
+  #UPVOTE & DOWNVOTE
+  def upvote
+  @tweet = Tweet.find(params[:id])
+  @tweet.upvote_by current_user
+  redirect_back fallback_location: tweets_path
+  end
+
+  def downvote
+    @tweet = Tweet.find(params[:id])
+    @tweet.downvote_by current_user
+    redirect_back fallback_location: tweets_path
+  end
   # POST /tweets
   # POST /tweets.json
   def create
@@ -65,10 +74,15 @@ class TweetsController < ApplicationController
     end
   end
 
+
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_tweet
       @tweet = Tweet.find(params[:id])
+    end
+    def find_user
+    @User=User.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
