@@ -11,8 +11,13 @@ class TweetsController < ApplicationController
   # GET /tweets/1
   # GET /tweets/1.json
   def show
+
   end
 
+  # def display
+  #   @tweet = Tweet.find(params[:id])
+  #   @tweet = @tweet.message.select! { |s| s.user_id == current_user.id }
+  # end
   # GET /tweets/new
   def new
     @tweet = Tweet.new
