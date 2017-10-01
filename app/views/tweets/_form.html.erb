@@ -1,4 +1,4 @@
-  <div class="text-center">
+<div class="text-center">
 
 
     <%= form_with(model: tweet, local: true, html: { multipart: true }) do |form| %>
@@ -19,10 +19,10 @@
 		</div>
 		<% end %>
 
-		<div class="field">
-			<%= form.label :message %>
-			<%= form.text_field :message, id: :tweet_message %>
-		</div>
+    <div class="field">
+      <%= form.label :message %>
+      <%= form.text_field :message, id: :tweet_message %>
+    </div>
 
     <div class="field">
     <%= form.label :image %><br>

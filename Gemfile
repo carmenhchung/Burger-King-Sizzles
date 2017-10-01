@@ -7,8 +7,10 @@ end
 
 # Bootstrap gem and sass
 gem 'bootstrap-sass', '~> 3.3.6'
-
+#Voting/Likes
 gem 'acts_as_votable', '~> 0.10.0'
+# Icons
+gem "font-awesome-rails"
 # Devise gem for users in database
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
