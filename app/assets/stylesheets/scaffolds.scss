@@ -45,5 +45,26 @@ body {
     }
 }
 label {
-    display: block;
+
+  display: block;
 }
+
+body {
+  background: url(burger.jpg) center center / cover no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode:darken;
+}
+
+.burgerking{
+
+height: 100px;
+width: 100px;
+margin-top: -70px;
+z-index: 1; position:relative;
+float: left;
+}
+

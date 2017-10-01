@@ -22,6 +22,7 @@ html {
 body {
   margin: 0;
 }
+
 article,
 aside,
 details,
@@ -1315,6 +1316,7 @@ mark,
   background-color: #fcf8e3;
   padding: .2em;
 }
+
 .text-left {
   text-align: left;
 }
@@ -1611,6 +1613,7 @@ pre code {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
+
   padding-left: 15px;
   padding-right: 15px;
   z-index: 1;
@@ -3444,6 +3447,8 @@ fieldset[disabled] .btn-link:focus {
   font-size: 18px;
   line-height: 1.3333333;
   border-radius: 6px;
+
+
 }
 .btn-sm,
 .btn-group-sm > .btn {
@@ -4967,7 +4972,9 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background:transparent;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .jumbotron h1,
 .jumbotron .h1 {
