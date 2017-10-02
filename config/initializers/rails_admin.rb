@@ -5,9 +5,17 @@ RailsAdmin.config do |config|
   #exclude crowns
   config.excluded_models << "crown"
 
-  config.model 'tweets' do
-  object_label_method :Sizzles
-  end
+  #rename tweets to sizzles
+    # config.model 'Tweets' do
+    #   object_label_method do
+    #     :custom_label_method
+    #   end
+    # end
+    # Tweets.class_eval do
+    #   def custom_label_method
+    #     "Tweets #{self.Sizzles}"
+    #   end
+    # end
 
 
   ### Popular gems integration

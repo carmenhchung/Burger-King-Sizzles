@@ -9,20 +9,24 @@
   <%= link_to 'New Sizzle', new_tweet_path, class: "btn btn-success btn-lg" %>
   </center>
   <thead>
-    <tr>
-      <!-- <th>Message</th> -->
     <br>
-    </tr>
   </thead>
 <!--  -->
   <tbody>
     <% @tweets.each do |tweet| %>
+    <tr>
+      <th> User      </th>
+      <th>      Sizzle </th>
+      <th> Tweet id </th>
+      <th> Posted </th>
+    </tr>
       <tr>
         <td><%= tweet.user_id%></td>
         <td><%= tweet.message %> </td>
         <td><%= tweet.id %></td>
         <td><%= time_ago_in_words(tweet.created_at) %></td>
-        <td><%= tweet.avatar_url %></td>
+      </tr>
+      <tr>
         <td><%= link_to 'Show', tweet, class: "btn btn-primary"%></td>
         <!-- <td><%= link_to 'Edit', edit_tweet_path(tweet), class: "btn btn-info" %></td> -->
         <td><%= link_to 'Delete', tweet, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
