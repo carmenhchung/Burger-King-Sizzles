@@ -1,21 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
-    background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
     color: #333;
     margin: 33px;
-    font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
+    background: url(burger.jpg) center center / cover no-repeat;
+    position: relative;
+    background-color: #fff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
 }
 
-.navbar{
-  margin-bottom: 0 !important;
-  height: 75px !important;
+.navbar {
+    margin-bottom: 0 !important;
+    height: 75px !important;
 
-  .logo{
-    width: 75px;
-  }
+    .logo {
+        width: 75px;
+    }
 }
-
 #notice {
     color: green;
 }
@@ -46,4 +54,18 @@ body {
 }
 label {
     display: block;
+
 }
+.burgerking {
+    height: 100px;
+    width: 100px;
+    margin-top: -70px;
+    z-index: 1;
+    position: relative;
+    float: left;
+}
+
+.tweets-section{
+  margin-top: 100px;
+}
+>>>>>>> Stashed changes
