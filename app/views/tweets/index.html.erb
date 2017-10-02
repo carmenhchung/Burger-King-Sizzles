@@ -3,7 +3,7 @@
 <h1>Sizzles</h1>
 <%= link_to 'New Sizzle', new_tweet_path, class: "btn btn-success btn-lg" %>
 
-<table class="table">
+<table class="table text-center">
   <thead>
     <tr>
       <!-- <th>Message</th> -->
@@ -14,8 +14,8 @@
   <tbody>
     <% @tweets.each do |tweet| %>
       <tr>
-        <td><%= tweet.user_id %></td>
-        <td><%= tweet.message %></td>
+        <td><%= tweet.user_id%></td>
+        <td><%= tweet.message %> </td>
         <td><%= tweet.id %></td>
         <td><%= time_ago_in_words(tweet.created_at) %></td>
         <td><%= tweet.avatar_url %></td>
@@ -23,7 +23,7 @@
         <td><%= link_to 'Edit', edit_tweet_path(tweet), class: "btn btn-info" %></td>
         <td><%= link_to 'Delete', tweet, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
         <td><%= link_to like_tweet_path(tweet), class: "btn btn-success", method: :put do %>
-          👑 Whop
+          👑 Whop it
           <%= tweet.get_upvotes.size %>
         <% end %></td>
         <td><%= link_to dislike_tweet_path(tweet), class: "btn btn-warning", method: :put do %>
