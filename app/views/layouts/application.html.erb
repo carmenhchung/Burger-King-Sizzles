@@ -6,24 +6,22 @@
 
 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<%= favicon_link_tag %>
 	</head>
 	<body>
 		<!-- render Nav Bar  -->
-		<%= render 'layouts/nav'%>
+			<div class="container">
+				<%= render 'layouts/nav'%>
 
-
-
-<!-- container to keep it neat  -->
-		<div class="container text-center">
-
-			<!--Bird image  -->
-			<p class="notice"><%= notice %></p>
-		 	<p class="alert"><%= alert %></p>
-			<div class="jumbotron">
+				<p class="notice"><%= notice %></p>
+				<p class="alert"><%= alert %></p>
 
 				<%= yield %>
-			</div>
+
 		</div>
 
 	</body>
