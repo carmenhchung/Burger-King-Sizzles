@@ -1,18 +1,20 @@
 # README
 
-## Twitter Clone for BURGER KING; When making a rails app.
-	added bootstrap 3 gem, and sass and improved UI.
+### Achievements:
+
+- Added navbar , logo and banner image to landing page
+- Placed placeholder cards for tweets in the body section
+- Merged CSS files to single file
+- Boostrap saas gem installed
 
 
-	Known bugs : ~~"Currently the submit button only works once. and then crashes"~~
-				This was caused because you can't put a form inside a table, so I removed my Table classes
+### Challenges:
 
-				Also fixed my button errors by forcing white on all btn classses with !important
+- Positioning navbar items
+- figuring out the git flow
 
 
----
-# /Tweet page updated
-logo and navbar repositioned.
+### What I learnt:
 
-# /Tweet Page Updated V02.
-Burger big picture problem rectified. 
+- Git flow
+- Responsive design
