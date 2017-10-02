@@ -88,11 +88,11 @@ label {
 
 
 .burgerking{
-height: 18%;
+height: 16vw;
 position: absolute;
 z-index:1;
 margin-left: 5%;
-margin-top: -2%;
+margin-top: -6%;
 }
 
 .burger{
@@ -104,4 +104,34 @@ margin-top: -2%;
 
 .container2{
   text-align: center;
+}
+
+@media screen and (max-width: 480px){
+
+ .logo{
+   margin-left: auto;
+   margin-right: auto;
+   float: left;
+ }
+
+  .burgerking{
+  position: absolute;
+  top: 6%;
+  height: 15%;
+  float: left;
+  }
+
+  .burger{
+  width: 100%;
+  height: auto;
+  margin-top: 34%;
+  }
+
+.navbar{
+  margin-right: 2%;
+  }
+  h1{
+    padding:  20%;
+    position: relative;
+  }
 }
