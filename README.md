@@ -19,7 +19,13 @@ Personal Challenges as Team Leader  -
 ###### Things I learned:
 	Team work can be super fun, and rewarding and also the worst.
 
-	We utilized some new gems, this time around which was really good, but it also pushed me to realised I'm still such a novice when it comes to ROR and it will be an exciting journey to learn more. 
+	We utilized some new gems, this time around which was really good, but it also pushed me to realised I'm still such a novice when it comes to ROR and it will be an exciting journey to learn more.
+
+
+
+# Deliverables : challenges and achievements
+
+- One of our key Deliverables was the abilty to reply to sizzles, we based this off a new database, and 
 
 
 

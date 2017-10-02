@@ -4,6 +4,9 @@ class HomeController < ApplicationController
     @tweets = Tweet.last(50)
   end
   def profile
-    # @User = current_user.find(params[:id])
+    @cTweets = []
+    current_user.tweets.each do |r|
+      @cTweets << r.message
+    end
   end
 end

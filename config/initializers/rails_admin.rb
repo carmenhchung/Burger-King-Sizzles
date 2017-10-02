@@ -1,12 +1,22 @@
 RailsAdmin.config do |config|
+  config.main_app_name = ["Burger King Sizzles", "Data Analytics"]
+
+
+  #exclude crowns
+  config.excluded_models << "crown"
+
+  config.model 'tweets' do
+  object_label_method :Sizzles
+  end
+
 
   ### Popular gems integration
 
   # == Devise ==
-  # config.authenticate_with do
-  #   warden.authenticate! scope: :user
-  # end
-  # config.current_user_method(&:current_user)
+  config.authenticate_with do
+    warden.authenticate! scope: :user
+  end
+  config.current_user_method(&:current_user)
 
   ## == Cancan ==
   # config.authorize_with :cancan
