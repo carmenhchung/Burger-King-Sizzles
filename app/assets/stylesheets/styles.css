@@ -3,12 +3,18 @@
   float: none;
   vertical-align: top;
 }
+/*.collapse {
+  /*background-color:rgba(0, 102, 178, 0.7);*/
+  /*-webkit-animation: background 5s cubic-bezier(1,0,0,1) infinite;
+  animation: background 5s cubic-bezier(1,0,0,1) infinite;*/
 
-
-
- * {
-  box-sizing: border-box;
+  .btn {
+    color : #fff !important
 }
+
+ /** {
+  box-sizing: border-box;
+}*/
 
 body {
   font-family: 'Open Sans';

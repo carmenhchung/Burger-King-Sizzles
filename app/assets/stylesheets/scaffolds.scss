@@ -42,22 +42,19 @@ td {
   padding: 0 5px 7px;
 }
 
-div {
-  &.field, &.actions {
-    margin-bottom: 10px;
+  .logo{
+    width: 75px;
   }
-}
+
 
 #notice {
-  color: green;
+    color: green;
 }
-
 .field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
+    padding: 2px;
+    background-color: red;
+    display: table;
 }
-
 #error_explanation {
   text-align: center;
   width: 450px;
@@ -81,11 +78,10 @@ div {
     list-style: square;
   }
 }
-
 label {
+
   display: block;
 }
-
 
 .burgerking{
 height: 18%;

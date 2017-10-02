@@ -1,85 +1,65 @@
-<h1>This is the Homepage</h1>
-
-<div class="l-card">
-  <div class="l-thumbnail">
-    <figure class="thumbnail-wrapper">
-      <img src="http://commonsense-design.com/wp-content/uploads/2016/12/thumbnail_sample.png"/>
-    </figure>
-    <span class="more-text">
-      Read More
-    </span>
-  </div>
-  <div class="text-content">
-    <h3 class="title">
-      Lorem Ipsum
-    </h3>
-    <p class="caption">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar ante diam, vitae accumsan sem ullamcorper…
-    </p>
-    <div class="content-meta">
-      <span class="date">
-        2016.12.12
-      </span>
-      <span class="like">
-        <i class="material-icons">&#xE87E;</i>
-        120
-      </span>
-    </div>
-  </div>
+<div class="bs-header">
+	<%= image_tag "homepage_banner.jpg", class: "img-responsive img-rounded" %>
 </div>
 
-<div class="l-card">
-  <div class="l-thumbnail">
-    <figure class="thumbnail-wrapper">
-      <img src="http://commonsense-design.com/wp-content/uploads/2016/12/thumbnail_sample.png"/>
-    </figure>
-    <span class="more-text">
-      Read More
-    </span>
-  </div>
-  <div class="text-content">
-    <h3 class="title">
-      Lorem Ipsum
-    </h3>
-    <p class="caption">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar ante diam, vitae accumsan sem ullamcorper…
-    </p>
-    <div class="content-meta">
-      <span class="date">
-        2016.12.12
-      </span>
-      <span class="like">
-        <i class="material-icons">&#xE87E;</i>
-        120
-      </span>
-    </div>
-  </div>
-</div>
-
-<div class="l-card">
-  <div class="l-thumbnail">
-    <figure class="thumbnail-wrapper">
-      <img src="http://commonsense-design.com/wp-content/uploads/2016/12/thumbnail_sample.png"/>
-    </figure>
-    <span class="more-text">
-      Read More
-    </span>
-  </div>
-  <div class="text-content">
-    <h3 class="title">
-      Lorem Ipsum
-    </h3>
-    <p class="caption">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar ante diam, vitae accumsan sem ullamcorper…
-    </p>
-    <div class="content-meta">
-      <span class="date">
-        2016.12.12
-      </span>
-      <span class="like">
-        <i class="material-icons">&#xE87E;</i>
-        120
-      </span>
-    </div>
-  </div>
+<div class="container tweets-section">
+	<div class="row">
+	<!--  Cards are going to be used for BK promotions and Discounts -->
+		<div class="col-sm-6 col-md-4">
+			<div class="media">
+				<%= image_tag("BK_logo_sm.png", :alt => "64x65", :class =>"img-fluid media-object" ) %>
+				<div class="media-body">
+				<h4 class="media-heading">Top Sizzle</h4>
+				<p> Grab crumbed Onion Rings for $1, or a creamy Sundae for $2, or a mouth-watering Chicken Royale for just $3.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="media">
+				<%= image_tag("BK_logo_sm.png", :alt => "64x65", :class =>"img-fluid media-object" ) %>
+				<div class="media-body">
+				<h4 class="media-heading">Whop this out!</h4>
+				<p> Whatever time you please grab a golden crispy Hash Brown available ALL DAY for ONLY $1</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="media">
+				<%= image_tag("BK_logo_sm.png", :alt => "64x65", :class =>"img-fluid media-object" ) %>
+				<div class="media-body">
+				<h4 class="media-heading">It's hot it sizzles</h4>
+				<p>Start your day with a delicious Cheese Toastie from only $2! </p>
+				</div>
+			</div>
+		</div>
+	</div><!--end of row 1-->
+		<div class="row">
+		<div class="col-sm-6 col-md-4">
+			<div class="media">
+				<%= image_tag("BK_logo_sm.png", :alt => "64x65", :class =>"img-fluid media-object" ) %>
+				<div class="media-body">
+				<h4 class="media-heading">It's so Whop-tastic!/h4>
+				<p>It’s true! Our $3.95 Better Snack Box tastes better with a view </p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="media">
+				<%= image_tag("BK_logo_sm.png", :alt => "64x65", :class =>"img-fluid media-object" ) %>
+				<div class="media-body">
+				<h4 class="media-heading">Sizzle of the month!</h4>
+				<p>Grab a Deluxe Brekky Roll, a Hash Brown and a delicious 100% Arabica coffee for the ultimate combo.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="media">
+				<%= image_tag("BK_logo_sm.png", :alt => "64x65", :class =>"img-fluid media-object" ) %>
+				<div class="media-body">
+				<h4 class="media-heading">Whop it good</h4>
+				<p>It’s true! Our $3.95 Better Snack Box tastes better with a view </p>
+				</div>
+			</div>
+		</div>
+	</div> <!--end of row 2-->
 </div>

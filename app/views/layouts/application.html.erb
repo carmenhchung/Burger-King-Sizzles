@@ -1,36 +1,30 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Twitter</title>
+		<title>Burger King Sizzles</title>
 		<%= csrf_meta_tags %>
 
 		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<%= favicon_link_tag %>
+		<%= favicon_link_tag %>
 	</head>
-
 	<body>
-
-<!-- container to keep it neat  -->
-<%= image_tag "burger.jpg", class: "burger"%>
-		<div class="container">
-			<!-- render Nav Bar  -->
-			<%= render 'layouts/nav'%>
-			<%= image_tag "burgerking.svg.png", class: "burgerking"%>
-			<!--Bird image  -->
-			</div>
-
-			<p class="notice"><%= notice %></p>
-			<p class="alert"><%= alert %></p>
-			<div class="jumbotron">
+		<!-- render Nav Bar  -->
+			<div class="container">
+				<%= render 'layouts/nav'%>
+			
+				<p class="notice"><%= notice %></p>
+				<p class="alert"><%= alert %></p>
+				<div class="jumbotron">
 
 				<%= yield %>
 
+			</div>
 		</div>
+
 	</body>
 </html>

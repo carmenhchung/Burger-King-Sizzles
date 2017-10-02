@@ -1,0 +1,27 @@
+<%= form_with(model: crown, local: true) do |form| %>
+  <% if crown.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(crown.errors.count, "error") %> prohibited this crown from being saved:</h2>
+
+      <ul>
+      <% crown.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :tweet_id %>
+    <%= form.text_field :tweet_id, id: :crown_tweet_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :user_id %>
+    <%= form.text_field :user_id, id: :crown_user_id %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

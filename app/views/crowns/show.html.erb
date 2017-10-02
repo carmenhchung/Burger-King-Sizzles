@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tweet:</strong>
+  <%= @crown.tweet_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @crown.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_crown_path(@crown) %> |
+<%= link_to 'Back', crowns_path %>
