@@ -20,3 +20,18 @@
 * still mentions tweets throughout the page in Admin page
 * Trying to get profile URL to = "/:user"  so each user has their own URL..For now it's just "/profile
 * Currently the submit button only works once. and then crashes - This was caused because you can't put a form inside a table, so I removed my Table classes.
+---
+# /Tweet page updated
+logo and navbar repositioned.
+
+# /Tweet Page Updated V02.
+Burger big picture problem rectified.
+
+
+#James' Summary
+-Sunday - added RailsAdmin gem, via online Tutorial; problems include, additional replies table and crowns table. displayed inside the admin panel, additionally, any one can have access to the admin panel if they know the /admin url.
+- Swapped various spelling mistakes and 'tweets' to 'sizzles' 
+
+
+- Monday - added rounded edges to banner, removed color from background.
+-

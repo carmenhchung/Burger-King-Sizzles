@@ -4971,10 +4971,10 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  background:transparent;
+  color:inherit;
   max-width: 100%;
   overflow-x: hidden;
+
 }
 .jumbotron h1,
 .jumbotron .h1 {
