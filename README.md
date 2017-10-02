@@ -30,8 +30,8 @@ Burger big picture problem rectified.
 
 #James' Summary
 -Sunday - added RailsAdmin gem, via online Tutorial; problems include, additional replies table and crowns table. displayed inside the admin panel, additionally, any one can have access to the admin panel if they know the /admin url.
-- Swapped various spelling mistakes and 'tweets' to 'sizzles' 
+- Swapped various spelling mistakes and 'tweets' to 'sizzles'
 
 
 - Monday - added rounded edges to banner, removed color from background.
--
+- 
