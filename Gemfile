@@ -10,8 +10,8 @@ gem 'remotipart', github: 'mshibuya/remotipart'
 gem 'rails_admin', github: 'sferik/rails_admin'
 gem 'rails_admin_rollincode', '~> 1.2'
 
-
-
+#jquery for rails
+gem 'jquery-rails'
 # Bootstrap gem and sass
 gem 'bootstrap-sass', '~> 3.3.6'
 #Voting/Likes
