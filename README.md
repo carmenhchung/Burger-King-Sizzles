@@ -11,3 +11,8 @@
 
 
 ---
+# /Tweet page updated
+logo and navbar repositioned.
+
+# /Tweet Page Updated V02.
+Burger big picture problem rectified. 
