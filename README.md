@@ -1,13 +1,21 @@
 # README
 
-## Twitter Clone for BURGER KING; When making a rails app.
-	added bootstrap 3 gem, and sass and improved UI.
+
+## Sana Summary
+
+#Challenges
+
+Creating wireframe and design mock ups professionally.
 
 
-	Known bugs : ~~"Currently the submit button only works once. and then crashes"~~
-				This was caused because you can't put a form inside a table, so I removed my Table classes
 
-				Also fixed my button errors by forcing white on all btn classses with !important
+#Achievements
+
+created wireframes using figma
+created design mockups using balsamiq
 
 
----
+#What I learnt
+working in the team.
+Cloning and pushing to github & Gitflow.
+Creating  better quality wireframes and design mockups.
