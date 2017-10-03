@@ -1,21 +1,33 @@
-# README
-
-
-## Sana Summary
-
-#Challenges
-
-Creating wireframe and design mock ups professionally.
 
 
 
-#Achievements
+# Burger-King-Sizzles- UX/UI Design team
 
-created wireframes using figma
-created design mockups using balsamiq
+## Challenge
+
+* Creating wireframes of the website pages
+* creating design mock ups of the website
+* working in a team.
 
 
-#What I learnt
-working in the team.
-Cloning and pushing to github & Gitflow.
-Creating  better quality wireframes and design mockups.
+## Achievements
+
+This challenge was great as I learn to use balsamiq better than before.
+*We used figma to create our wire frames and Balsamiq to use design mock ups.
+*Push my work to github and work with master branch.
+
+
+
+## What I learnt
+
+* Use of Figma to create wireframe
+* Balsamiq to create mock ups.
+* Git hub- creating my branch, working with master branch
+* working in a team and achieving the result everyone wanted to achieve.
+
+
+## Summary
+
+Please click here to see design mock ups
+
+https://mitagency.mybalsamiq.com/projects/sana/grid
