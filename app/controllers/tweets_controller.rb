@@ -6,6 +6,7 @@ class TweetsController < ApplicationController
   # GET /tweets.json
   def index
     @tweets = Tweet.all
+    # @username = User.user_name
   end
 
   # GET /tweets/1
@@ -90,7 +91,7 @@ class TweetsController < ApplicationController
       @tweet = Tweet.find(params[:id])
     end
     def find_user
-    @User=User.find(params[:id])
+      @User=User.find(params[:user_id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
