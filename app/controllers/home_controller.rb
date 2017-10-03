@@ -1,9 +1,12 @@
 class HomeController < ApplicationController
   def index
-    @brand = "Twitter"
-    @tweets = Tweet.last(20)
+    @brand = "Burger King Sizzle"
+    @tweets = Tweet.last(50)
   end
   def profile
-    # @User = User.find(params[:id])
+    @cTweets = []
+    current_user.tweets.each do |r|
+      @cTweets << r.message
+    end
   end
 end
