@@ -1,11 +1,16 @@
+<div class="container">
 <H1> Your sizzles</H1>
+<table class"table text-center">
+  <tbody>
+    <% @cTweets.each do |t| %>
+    <tr>
+      <th> </th>
+    </tr>
+      <tr>
+        <td><%= t %></td>
+      </tr>
+      <%end%>
+    </tbody>
 
-
-<ul>
-  <% @cTweets.each do |t| %>
-    <li><%= t %> </li>
-		<li><%= t.time_ago_in_words(t.created_at) %></li>
-
-  <% end %>
-
-	</ul>
+</table>
+</div>
