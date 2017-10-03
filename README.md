@@ -1,14 +1,44 @@
-# README
-
-## Twitter Clone for BURGER KING; When making a rails app.
-	added bootstrap 3 gem, and sass and improved UI.
 
 
-	Known bugs : ~~"Currently the submit button only works once. and then crashes"~~
-				This was caused because you can't put a form inside a table, so I removed my Table classes
 
-				Also fixed my button errors by forcing white on all btn classses with !important
+# Burger-King-Sizzles- UX/UI Design team
 
+## Challenge
+
+* Creating wireframes of the website pages
+* creating design mock ups of the website
+* working in a team.
+
+
+## Achievements
+
+This challenge was great as I learn to use balsamiq better than before.
+*We used figma to create our wire frames and Balsamiq to use design mock ups.
+*Push my work to github and work with master branch.
+
+
+
+## What I learnt
+
+* Use of Figma to create wireframe
+* Balsamiq to create mock ups.
+* Git hub- creating my branch, working with master branch
+* working in a team and achieving the result everyone wanted to achieve.
+
+
+## Summary
+
+Please click here to see design mock ups
+
+For home page [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/homepage.png "Home page")
+
+For sign up page [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/Signup%20page.png "sign up page")
+
+For user's log in [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/homepage.png "log in page")
+
+For User's page with sizzle feed[click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/User's%20Login%20page.png "User's log in page")
+
+For BK stream page [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/bk_stream_page_1024.png "BK STREAM PAGE")
 
 ---
 # /Tweet page updated
