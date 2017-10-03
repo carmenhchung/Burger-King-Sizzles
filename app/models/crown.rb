@@ -1,0 +1,2 @@
+class Crown < ApplicationRecord
+end

@@ -1,0 +1,103 @@
+body {
+  // background-color: #fff;
+  color: #333;
+  margin: 33px;
+
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  background-image: image-url("0209_stripes.jpg");
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #fff;
+
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding: 0 5px 7px;
+}
+
+  .logo{
+    width: 75px;
+  }
+
+
+#notice {
+    color: green;
+}
+.field_with_errors {
+    padding: 2px;
+    background-color: red;
+    display: table;
+}
+#error_explanation {
+  text-align: center;
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px -7px 0;
+    background-color: #c00;
+    color: #fff;
+  }
+
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+label {
+
+  display: block;
+}
+
+.burgerking{
+height: 18%;
+position: absolute;
+z-index:1;
+margin-left: 5%;
+margin-top: -2%;
+}
+
+.burger{
+  position: absolute;
+  margin-top: 0;
+  width: 100%;
+  z-index:0;
+}
+
+.container2{
+  text-align: center;
+}
