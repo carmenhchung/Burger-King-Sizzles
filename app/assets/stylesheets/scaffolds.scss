@@ -91,12 +91,21 @@ margin-left: 5%;
 margin-top: -2%;
 }
 
+
+.burgerking{
+height: 100px;
+width: 100px;
+float: left;
+margin-top: -70px;
+z-index:100;
+
 .burger{
   position: absolute;
   margin-top: 0;
   width: 100%;
   z-index:0;
 }
+
 
 .container2{
   text-align: center;

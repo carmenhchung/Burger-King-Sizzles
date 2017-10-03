@@ -25,6 +25,9 @@ Personal Challenges as Team Leader  -
 
 # Deliverables : challenges and achievements
 
+Tessa
+- One of our key Deliverables was the abilty to reply to sizzles, we based this off a new database, and
+
 - One of our key Deliverables was the abilty to reply to sizzles, we based this off a new database, and 
 
 
@@ -115,6 +118,35 @@ What I learnt
 
 # Tessa Summary
 
+Challenges
+* Limited time.
+* UX is a linear process, everyone starting at the same time was a challenge
+because the front-end could not start working until the UX had created the wireframes.
+This meant the wireframes were reasonably rushed at first.
+* It was difficult to keep track of how the app was coming along because of various github branches,
+this made it difficult to monitor the User Experience as the app was in creation. Usually, I guess the developers create an MVP, the user experience is tested and feedback is given back to the developers.
+* I had some problems with GitHub pull requests, and cloning branches.
+
+
+Achievements
+* Created Wireframes using figma and Balsamiq.
+Please see wireframes:
+* User Profiles using Xtensio.
+* Lean Canvas using Xtensio.
+* Clone Branch and working with master branch on GitHub.
+
+
+What I learnt
+* Three new UX tools, figma, Balsamiq and Xtensio
+* Research & Create user personas.
+* GitHub pull requests and working on different branches.
+
+For Personas and Lean Canvas [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/Tessa/app/assets/images/tessa/Personas%20%26%20Lean%20canvas.pdf
+)
+
+For Wireframe [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/Tessa/app/assets/images/tessa/wireframes.png
+)
+
 
 
 Challenges
@@ -129,6 +161,9 @@ What I learnt
 
 
 # Khaled Summary
+
+Challenge
+
 Challenges
 
 
