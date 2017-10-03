@@ -1,9 +1,63 @@
+<div class="container">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+Sign up
+  </button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">sign up</h4>
+			</div>
+			<div class="modal-body">
+				<p><%= render "devise/registrations/new" %>
+					<%= link_to "Log in", new_session_path(resource_name) %></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Trigger the modal with a button -->
 <% if user_signed_in? %>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#my2Modal">
 
-  <%= link_to('LOG IN', destroy_user_session_path, method: :delete) %>
+	<%= link_to('Logout', destroy_user_session_path, method: :delete) %>
 
+</button>
 <% else %>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#my2Modal">
 
-  <%= link_to('LOG IN', new_user_session_path)  %>
+	Login
 
-<% end %>
+	<% end %>
+</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="my2Modal" role="dialog">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Modal Header</h4>
+			</div>
+			<div class="modal-body">
+				<p><%= render "devise/sessions/new" %></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+</div>

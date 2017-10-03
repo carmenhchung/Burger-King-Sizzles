@@ -1,26 +1,46 @@
-<p id="notice"><%= notice %></p>
 
-<h1>Tweets</h1>
-<%= link_to 'New Tweet', new_tweet_path, class: "btn btn-success btn-lg" %>
 
-<table class="table">
+<div class="container">
+
+
+<table class="table text-center">
+  <h1>Sizzles</h1>
+  <center>
+  <%= link_to 'New Sizzle', new_tweet_path, class: "btn btn-success btn-lg" %>
+  </center>
   <thead>
-    <tr>
-      <th>Message</th>
-      <th colspan="3"></th>
-    </tr>
+    <br>
   </thead>
 <!--  -->
   <tbody>
     <% @tweets.each do |tweet| %>
+    <tr>
+      <th> User      </th>
+      <th>      Sizzle </th>
+      <th> Tweet id </th>
+      <th> Posted </th>
+    </tr>
       <tr>
-        <td><%= tweet.message %></td>
+        <td><%= tweet.user_id%></td>
+        <td><%= tweet.message %> </td>
+        <td><%= tweet.id %></td>
+        <td><%= time_ago_in_words(tweet.created_at) %></td>
+      </tr>
+      <tr>
         <td><%= link_to 'Show', tweet, class: "btn btn-primary"%></td>
-        <td><%= link_to 'Edit', edit_tweet_path(tweet), class: "btn btn-info" %></td>
+        <!-- <td><%= link_to 'Edit', edit_tweet_path(tweet), class: "btn btn-info" %></td> -->
         <td><%= link_to 'Delete', tweet, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %></td>
+        <td><%= link_to like_tweet_path(tweet), class: "btn btn-success", method: :put do %>
+          👑 Whop it
+          <%= tweet.get_upvotes.size %>
+        <% end %></td>
+        <td><%= link_to dislike_tweet_path(tweet), class: "btn btn-warning", method: :put do %>
+          Dewhop
+          <%= tweet.get_downvotes.size %>
+        <% end %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
-
+</div>
 <br>

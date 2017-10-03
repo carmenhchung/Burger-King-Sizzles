@@ -25,7 +25,10 @@ Personal Challenges as Team Leader  -
 
 # Deliverables : challenges and achievements
 
+Tessa
 - One of our key Deliverables was the abilty to reply to sizzles, we based this off a new database, and
+
+- One of our key Deliverables was the abilty to reply to sizzles, we based this off a new database, and 
 
 
 
@@ -146,8 +149,22 @@ For Wireframe [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/
 
 
 
+Challenges
+
+
+Achievements
+
+
+
+What I learnt
+
+
+
 # Khaled Summary
+
 Challenge
+
+Challenges
 
 
 Achievements
