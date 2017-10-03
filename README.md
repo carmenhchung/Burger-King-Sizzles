@@ -1,5 +1,4 @@
-# README
-## Burger King Brand Twitter Clone: Burger King Sizzles
+# Burger King Brand Twitter Clone: Burger King Sizzles
 ## Presented by Giant Peach Corporation
 
 # TASK
