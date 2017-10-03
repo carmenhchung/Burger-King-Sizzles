@@ -181,10 +181,10 @@ What I learnt
 # Travis Summary
 
 Challenges
-
+Deploying to heroku, databases werent migrating. Had to manually change timestamps in local so that migration was doing it in order. Had to delete unused columns within tables. Heroku Restart. Heroku run rake db:migrate. 
 
 Achievements
-
+DEPLOYED
 
 
 What I learnt
