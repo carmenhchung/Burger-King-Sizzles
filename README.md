@@ -164,10 +164,11 @@ What I learnt
 # Kasumi Summary
 
 Challenges
- Frontend for homepage and responsives.
+ Front end for homepage and responsives.
 
 Achievements
  Modals for sign up and login pages.
+ Set a favicon.
 
 
 What I learnt
