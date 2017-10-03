@@ -1,5 +1,9 @@
 <% if user_signed_in? %>
 
-  <%= link_to '/tweets', authenticated_root  %>
+  <%= link_to 'Tweets', tweets_path ,class: "btn btn-success btn-lg" %>
+
+  <%= link_to 'Home', root_path ,class: "btn btn-success btn-lg" %>
+
+  <%= link_to 'My Profile', user_path, class: "btn btn-success btn-lg" %>
 
 <% end %>
