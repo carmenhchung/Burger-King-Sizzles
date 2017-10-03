@@ -1,14 +1,28 @@
 # README
 ### Giant Peach Corporation first Challenge; Burger King Inspired Twitter Clone. ( 'Burger King Sizzles')
 
+
 #James' Summary
 -Sunday - added RailsAdmin gem, via online Tutorial; problems include, additional replies table and crowns table. displayed inside the admin panel, additionally, any one can have access to the admin panel if they know the /admin url.
 - Swapped various spelling mistakes and 'tweets' to 'sizzles'
 - Monday - added rounded edges to banner, removed color from background.
 -
+=======
+### Achievements:
 
 
+- Added navbar , logo and banner image to landing page
+- Placed placeholder cards for tweets in the body section
+- Merged CSS files to single file
+- Boostrap saas gem installed
 
+
+=======
+### Challenges:
+
+
+- Positioning navbar items
+- figuring out the git flow
 
 
 
@@ -61,7 +75,7 @@ pull and push between branches.
 Checkout between branches.
 How to delete local and remote branches from command line.
 How to compare and merge branches.
-How would be the role of a developer in a project and how git works and helps.
+How would be the role of a developer in a project and how git works and helps..
 
 
 # Rick Summary
@@ -194,3 +208,9 @@ Achievements
 
 
 What I learnt
+=======
+### What I learnt:
+
+- Git flow
+- Responsive design
+
