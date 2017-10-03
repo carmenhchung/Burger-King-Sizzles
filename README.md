@@ -12,6 +12,8 @@ Our team (Giant Peach Corporation) was tasked to create a Burger King branded Tw
 
 # SYNOPSIS
 
+Our Technical & Cost Proposal can be found [here](https://drive.google.com/open?id=0B4E-nX-9D2HIa2w4R0dJc0kweVE). 
+
 ## Users
 
 The application is designed to allow users to:
