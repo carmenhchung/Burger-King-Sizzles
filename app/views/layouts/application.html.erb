@@ -8,8 +8,11 @@
 		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
 	</head>
-
 	<body>
+		<!-- render Nav Bar  -->
+		<%= render 'layouts/nav'%>
+		
+
 
 <!-- container to keep it neat  -->
 		<div class="container text-center">
@@ -17,16 +20,13 @@
 			<%= render 'layouts/nav'%>
 			<%= image_tag "burgerking.svg.png", class: "burgerking"%>
 			<!--Bird image  -->
-
-			<%= image_tag "burgerking.svg.png", class: "img-fluid text-center logo"%>
-
-
 			<p class="notice"><%= notice %></p>
-			<p class="alert"><%= alert %></p>
+		 	<p class="alert"><%= alert %></p>
 			<div class="jumbotron">
 
 				<%= yield %>
 			</div>
 		</div>
+
 	</body>
 </html>

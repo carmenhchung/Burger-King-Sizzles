@@ -39,3 +39,10 @@ For user's log in [click here](https://github.com/GP-corps/Burger-King-Sizzles/b
 For User's page with sizzle feed[click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/User's%20Login%20page.png "User's log in page")
 
 For BK stream page [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/bk_stream_page_1024.png "BK STREAM PAGE")
+
+---
+# /Tweet page updated
+logo and navbar repositioned.
+
+# /Tweet Page Updated V02.
+Burger big picture problem rectified. 
