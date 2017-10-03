@@ -30,4 +30,12 @@ This challenge was great as I learn to use balsamiq better than before.
 
 Please click here to see design mock ups
 
-https://mitagency.mybalsamiq.com/projects/sana/grid
+For home page [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/homepage.png "Home page")
+
+For home page [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/Signup%20page.png "sign up page")
+
+For home page [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/homepage.png "log in page")
+
+For home page [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/User's%20Login%20page.png "User's log in page")
+
+For home page [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/sana/app/assets/images/bk_stream_page_1024.png "BK STREAM PAGE")
