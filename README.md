@@ -79,27 +79,27 @@ For complicated merges, use the command line.
 3.    Open terminal.
 4.    Move to Master Branch
 ```
-    •    "git checkout master"
-    •    "git fetch origin"
-    •    "git checkout -b <branch name>"
-    •    "git merge master"
+    "git checkout master"
+    "git fetch origin"
+    "git checkout -b <branch name>"
+    "git merge master"
 ```
 5.    If conflicts appear, open atom and navigate to said conflicts.
 6.    Add or delete conflicts using the Atom buttons*
     !!! *however if changes are not what is required make changes manually and delete >>>>>>>> & ======= & <<<<<<<  marks
 7.    After changes have resolved. 
 ```
-    •    "git add ."
-    •    "git commit -m "<message>""
-    •    "git merge master"
+    "git add ."
+    "git commit -m "<message>""
+    "git merge master"
 ```
 8.    Now your master and branch are merged on your local computer
 ```
-    •    "git checkout master"
-    •    "git merge —no-ff <branch>"
-    •    "git push origin master"
+    "git checkout master"
+    "git merge —no-ff <branch>"
+    "git push origin master"
 ```
-9.    Now your master and branch is merged on Github.
+9.    Now your master and branch are merged on Github.
 
 # TECHNOLOGIES USED
 
