@@ -64,35 +64,36 @@ The application is designed to allow the client to:
 * Difficulties also encountered with simultaneous processes occurring at once (such as front end, UX/UI, and back end happening at the same time).
 * Use of Git, including using, pulling and merging branches. The following lessons were learnt for Git:
 ## Simple merges
-    •    Simple merges can be done through the GitHub site. For example, when updating the README.md file follow these steps:
-    1.    Create pull request.
+Simple merges can be done through the GitHub site. For example, when updating the README.md file follow these steps:
+1.    Create pull request.
     2.    Create merge.
     3.    Check conflicts.
     4.    Resolve conflicts by removing >>>>>>>> & ======= & <<<<<<< .
     5.    Commit changes.
 
 ## Command Line Merges
-    •    For complicated merges, use the command line. 
+For complicated merges, use the command line. 
     !!WARNING!! Make sure you know what the changes are before making changes, this may mean talking to the person who made them!
-    1.    Create pull request.
-    2.    Create merge.
-    3.    Open terminal.
-    4.    Move to Master Branch -> "git checkout master"
-    5.    "git fetch origin"
-    6.    "git checkout -b <branch name>"
-    7.    "git merge master"
-    8.    If conflicts appear, open atom and navigate to said conflicts.
-    9.    Add or delete conflicts using the Atom buttons*
+1.    Create pull request.
+2.    Create merge.
+3.    Open terminal.
+4.    Move to Master Branch
+    •    "git checkout master"
+    •    "git fetch origin"
+    •    "git checkout -b <branch name>"
+    •    "git merge master"
+5.    If conflicts appear, open atom and navigate to said conflicts.
+6.    Add or delete conflicts using the Atom buttons*
     !!! *however if changes are not what is required make changes manually and delete >>>>>>>> & ======= & <<<<<<<  marks
-    10.    With changes resolved. 
-    11.    "git add ."
-    12.    "git commit -m "<message>""
-    13.    "git merge master"
-    14.    Now your master and branch are merged on your local computer
-    15.    "git checkout master"
-    16.    "git merge —no-ff <branch>"
-    17.    "git push origin master"
-    18.    Now your master and branch is merged on Github.
+7.    After changes have resolved. 
+    •    "git add ."
+    •    "git commit -m "<message>""
+    •    "git merge master"
+8.    Now your master and branch are merged on your local computer
+    •    "git checkout master"
+    •    "git merge —no-ff <branch>"
+    •    "git push origin master"
+9.    Now your master and branch is merged on Github.
 
 # TECHNOLOGIES USED
 
