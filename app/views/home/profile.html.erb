@@ -4,7 +4,7 @@
 <ul>
   <% @cTweets.each do |t| %>
     <li><%= t %> </li>
-		<li><%= t.time_ago_in_words(time_created) %></li>
+		<li><%= t.time_ago_in_words(t.created_at) %></li>
 
   <% end %>
 
