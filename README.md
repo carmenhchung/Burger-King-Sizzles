@@ -138,13 +138,16 @@ What I learnt
 * Research & Create user personas.
 * GitHub pull requests and working on different branches.
 
-Please see Personas and Lean Canvas
+For Personas and Lean Canvas [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/Tessa/app/assets/images/tessa/Personas%20%26%20Lean%20canvas.pdf
+)
 
+For Wireframe [click here](https://github.com/GP-corps/Burger-King-Sizzles/blob/Tessa/app/assets/images/tessa/wireframes.png
+)
 
 
 
 # Khaled Summary
-Challenges
+Challenge
 
 
 Achievements
