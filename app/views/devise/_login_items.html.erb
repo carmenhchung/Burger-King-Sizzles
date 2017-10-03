@@ -19,7 +19,7 @@ Sign up
         </div>
         <div class="modal-body">
           <p><%= render "devise/registrations/new" %>
-          <%= link_to "Log in", new_session_path(resource_name) %></p>
+          <%#= link_to "Log in", new_session_path(resource_name) %></p>
 
 
         </div>
@@ -36,23 +36,16 @@ Sign up
 
       <!-- Trigger the modal with a button -->
       <% if user_signed_in? %>
-      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#my2Modal">
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#my3Modal">
 
-        <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
+        log out
 
-
-
-
-</button>
+      </button>
 
     <% else %>
     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#my2Modal">
 
-
-
-
-
-      <%= link_to "Login", "new_user_session_path"  %>
+      Login
 
     <% end %>
 </button>
@@ -63,7 +56,7 @@ Sign up
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Modal Header</h4>
+
             </div>
             <div class="modal-body">
               <p><%= render "devise/sessions/new" %></p>
@@ -75,6 +68,26 @@ Sign up
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="my3Modal" role="dialog">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+          </div>
+          <div class="modal-body">
+            <p>Click
+              <%= link_to('here', destroy_user_session_path, method: :delete) %> to log out</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 

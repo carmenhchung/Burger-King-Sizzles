@@ -1,14 +1,16 @@
 body {
-  // background-color: #fff;
   color: #333;
   margin: 33px;
-
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
   background-image: image-url("0209_stripes.jpg");
 }
 
+// .all{
+//   background-image: image-url("0209_stripes.jpg");
+//
+// }
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -22,15 +24,15 @@ pre {
 }
 
 a {
-  color: #fff;
+  color: rgba(#5f84f4, 0.92);
 
   &:visited {
-    color: #fff;
+    color: rgba(#5f84f4, 0.92);
   }
 
   &:hover {
     color: #fff;
-    background-color: #000;
+    // background-color: #000;
   }
 }
 
