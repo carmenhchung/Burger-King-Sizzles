@@ -1,9 +1,9 @@
 class HomeController < ApplicationController
   def index
-    @brand = "Twitter"
-    @tweets = Tweet.last(20)
+    @brand = "Burger King Sizzle"
+    @tweets = Tweet.last(50)
   end
   def profile
-    # @User = User.find(params[:id])
+    # @User = current_user.find(params[:id])
   end
 end
