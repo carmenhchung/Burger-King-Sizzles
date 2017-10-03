@@ -1,10 +1,12 @@
 body {
-  background-color: #fff;
+  // background-color: #fff;
   color: #333;
   margin: 33px;
+
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  background-image: image-url("0209_stripes.jpg");
 }
 
 p, ol, ul, td {
@@ -20,10 +22,10 @@ pre {
 }
 
 a {
-  color: #000;
+  color: #fff;
 
   &:visited {
-    color: #666;
+    color: #fff;
   }
 
   &:hover {
@@ -40,23 +42,21 @@ td {
   padding: 0 5px 7px;
 }
 
-div {
-  &.field, &.actions {
-    margin-bottom: 10px;
+  .logo{
+    width: 75px;
   }
-}
+
 
 #notice {
-  color: green;
+    color: green;
 }
-
 .field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
+    padding: 2px;
+    background-color: red;
+    display: table;
 }
-
 #error_explanation {
+  text-align: center;
   width: 450px;
   border: 2px solid red;
   padding: 7px 7px 0;
@@ -78,7 +78,26 @@ div {
     list-style: square;
   }
 }
-
 label {
+
   display: block;
+}
+
+.burgerking{
+height: 18%;
+position: absolute;
+z-index:1;
+margin-left: 5%;
+margin-top: -2%;
+}
+
+.burger{
+  position: absolute;
+  margin-top: 0;
+  width: 100%;
+  z-index:0;
+}
+
+.container2{
+  text-align: center;
 }

@@ -1,4 +1,8 @@
+<<<<<<< HEAD:db/migrate/20170929034908_acts_as_votable_migration.rb
 class ActsAsVotableMigration < ActiveRecord::Migration[5.1]
+=======
+class ActsAsVotableMigration < ActiveRecord::Migration[5.0]
+>>>>>>> 37efbf70ace9a0126bee03d270d8318d3a898ec0:db/migrate/20170929035332_acts_as_votable_migration.rb
   def self.up
     create_table :votes do |t|
 

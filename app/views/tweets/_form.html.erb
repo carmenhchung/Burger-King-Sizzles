@@ -1,7 +1,7 @@
   <div class="text-center">
 
 
-    <%= form_with(model: tweet, local: true) do |form| %>
+    <%= form_with(model: tweet, local: true, html: { multipart: true }) do |form| %>
 		<% if tweet.errors.any? %>
 		<div id="error_explanation">
 			<h2><%= pluralize(tweet.errors.count, "error") %>
@@ -10,6 +10,10 @@
 			<ul>
 				<% tweet.errors.full_messages.each do |message| %>
 				<li><%= message %></li>
+        <li><p>
+          <!-- <strong>Image:</strong> -->
+          <%= image_tag @tweet.avatar %>
+        </p></li>
 				<% end %>
 			</ul>
 		</div>
@@ -20,9 +24,16 @@
 			<%= form.text_field :message, id: :tweet_message %>
 		</div>
 
+    <div class="field">
+    <%= form.label :image %><br>
+    <%= form.file_field :avatar %>
+    </div>
+
 		<div class="actions ">
-			<%= form.submit "submit", class: "btn btn-success btn-lg" %>
+			<%= form.submit "Submit", class: "btn btn-success btn-lg" %>
 		</div>
 		<% end %>
+
+
 
 </div>

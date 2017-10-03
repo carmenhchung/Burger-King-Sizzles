@@ -1,0 +1,11 @@
+<H1> Your sizzles</H1>
+
+
+<ul>
+  <% @cTweets.each do |t| %>
+    <li><%= t %> </li>
+		<li><%= t.time_ago_in_words(time_created) %></li>
+
+  <% end %>
+
+	</ul>

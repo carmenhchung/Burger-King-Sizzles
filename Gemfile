@@ -5,16 +5,32 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Admin panel
+gem 'remotipart', github: 'mshibuya/remotipart'
+gem 'rails_admin', github: 'sferik/rails_admin'
+gem 'rails_admin_rollincode', '~> 1.2'
+
+#jquery for rails
+gem 'jquery'
 # Bootstrap gem and sass
 gem 'bootstrap-sass', '~> 3.3.6'
-
+#Voting/Likes
 gem 'acts_as_votable', '~> 0.10.0'
+# Icons
+gem "font-awesome-rails"
 # Devise gem for users in database
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
+<<<<<<< HEAD
 
 gem 'pg'
+=======
+# Use pg as the database for Active Record
+gem 'pg'
+
+gem 'carrierwave', '~> 1.0'
+>>>>>>> 37efbf70ace9a0126bee03d270d8318d3a898ec0
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
