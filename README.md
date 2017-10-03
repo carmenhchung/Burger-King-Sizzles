@@ -18,7 +18,7 @@ The application is designed to allow users to:
 
 * Sign up and login/logout (with user authentication).
 * Create, edit and delete tweets (known as "sizzles" in the application), including photographs.
-* Like (known as "whop" in the application) and unlike sizzles.
+* Like (known as "whop" in the application) and unlike (known as "dewhop") sizzles.
 * Reply to other users' sizzles.
 
 ## Client
