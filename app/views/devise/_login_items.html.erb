@@ -1,5 +1,5 @@
 <div class="container">
-  <!-- Trigger the modal with a button -->  
+  <!-- Trigger the modal with a button -->
   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
 Sign up
   </button>
@@ -32,14 +32,14 @@ Sign up
 	<%= link_to('Logout', destroy_user_session_path, method: :delete) %>
 
 </button>
-
 <% else %>
 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#my2Modal">
 
-	<%= link_to 'Login', "new_user_session_path"  %>
+	Login
 
 	<% end %>
 </button>
+
 
 <!-- Modal -->
 <div class="modal fade" id="my2Modal" role="dialog">
